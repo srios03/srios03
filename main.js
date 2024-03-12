@@ -10,4 +10,4 @@ for(Elementos of funciones.personas){
     console.log(elementos.nombre);
     console.log(elementos.edad);
     console.log(elementos.pais);
-}
+};
