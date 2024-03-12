@@ -1,12 +1,13 @@
-- 👋 Hi, I’m @srios03
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+//const funciones=require('./funciones.js');
+const {saludar, sumar}=require('/.funciones.js');
 
-<!---
-srios03/srios03 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+console.log(funciones);
+funciones.saludar();
+const resultado=funciones.sumar(30, 45);
+
+console.log(funciones.personas);
+for(Elementos of funciones.personas){
+    console.log(elementos.nombre);
+    console.log(elementos.edad);
+    console.log(elementos.pais);
+}
